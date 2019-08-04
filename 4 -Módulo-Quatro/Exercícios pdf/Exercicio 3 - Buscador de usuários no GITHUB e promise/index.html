@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio Rocketseat</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Busque qualquer usuário do GitHub de forma fácil e rápida!</h1>
+        <div id="form">
+            <input id="user" type="text" class="form control" required>
+            <button id="buscar" type="submit" class="btn btn-success">Buscar</button>
+        </div>
+        <span id="sucesso-ajax" class="invisivel"><p class="mensagemSucesso">Sucesso ao buscar usuário GitHub</p></span>
+        <span id="erro-ajax" class="invisivel"><p class="mensagemErro">Erro ao buscar usuário GitHub</p></span>
+        <ul id="lista"></ul>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/funcao.js"></script>
+</body>
+
+</html>

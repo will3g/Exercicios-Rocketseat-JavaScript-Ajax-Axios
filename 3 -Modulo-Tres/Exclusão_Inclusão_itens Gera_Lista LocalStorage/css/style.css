@@ -1,0 +1,9 @@
+#form {
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+#app {
+    margin-left: 7em;
+}

@@ -1,0 +1,31 @@
+.invisivel {
+    display: none;
+}
+
+#container {
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+#form {
+    display: flex;
+}
+
+#lista {
+    display: block;
+}
+
+h1 {
+    font-weight: bold;
+    text-shadow: 0 0 1em blue;
+}
+
+.mensagemErro {
+    font-weight: bold;
+    color: red;
+}
+
+.mensagemSucesso {
+    font-weight: bold;
+    color: green;
+}
